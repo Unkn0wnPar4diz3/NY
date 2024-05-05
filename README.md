@@ -367,8 +367,8 @@ Mouse binding
 
    ```
    nix-shell -p git
-   git clone https://github.com/Unkn0wnPar4diz3/nixos-config
-   cd nixos-config
+   git clone https://github.com/Unkn0wnPar4diz3/NY
+   cd NY
    ```
 3. **Install script**
 
@@ -377,15 +377,6 @@ Mouse binding
    Execute and follow the installation script :
    ```
    ./install.sh
-   ```
-   > You will need to change the git account yourself in ./modules/home/git.nix
-   ```
-      programs.git = {
-         ...
-         userName = "Frost-Phoenix";
-         userEmail = "67cyril6767@gmail.com";
-         ...
-      };
    ```
 4. **Reboot**
 
