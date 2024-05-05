@@ -5,8 +5,8 @@ stdenv.mkDerivation rec {
   version = "1.0";
 
   src = fetchFromGitHub {
-    owner = "Frost-Phoenix";
-    repo = "nixos-config";
+    owner = "nixie";
+    repo = "NixHypr";
     rev = "main";
     sha256 = ""; # Replace with the actual hash
   };
