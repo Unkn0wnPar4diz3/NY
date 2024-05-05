@@ -1,6 +1,6 @@
 { pkgs, lib, config, inputs, ... }: 
 {
-  programs.swaylock = {
+  programs.hyprlock = {
     enable = true;
     package = pkgs.swaylock-effects;
     settings = {
